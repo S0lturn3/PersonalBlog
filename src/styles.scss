@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+.light-theme {
+    --text-color: #212529;
+    --background-gradient: linear-gradient(to right, #cab8ca, #834383);
+}
+.dark-theme {
+    --text-color: #ffffff;
+    --background-gradient: linear-gradient(to right, #161416, #1d0e1d);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: var(--background-gradient);
+}
+
