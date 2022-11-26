@@ -1,0 +1,34 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "NOME": "Administrador do Sistema",
+      "USUARIO": "ADMIN",
+      "SENHA": "@ADM1N!"
+    },
+    {
+      "id": 2,
+      "NOME": "Erick Carvalho",
+      "USUARIO": "solturn3",
+      "SENHA": "S0lturn3"
+    },
+    {
+      "id": 3,
+      "NOME": "Criado por tela",
+      "USUARIO": "Criado por tela",
+      "SENHA": "123"
+    },
+    {
+      "id": "f0c0d4f2-e9bd-466a-8f2b-d170f75592df",
+      "NOME": "Criado por tela2",
+      "USUARIO": "Criado por tela2",
+      "SENHA": "1234"
+    },
+    {
+      "id": "5babf5c5-d415-4053-aa18-f896e7c3ec9c",
+      "NOME": "Criado por tela3",
+      "USUARIO": "Criado por tela3",
+      "SENHA": "12345"
+    }
+  ]
+}

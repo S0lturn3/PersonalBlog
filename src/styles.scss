@@ -2,13 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 
-.light-theme {
+// #region GLOBAIS
+.global-light-theme {
     --text-color: #212529;
-    --background-gradient: linear-gradient(to right, #cab8ca, #834383);
+    --background-gradient: linear-gradient(145deg, #fff, #dcbfdc, #c65ac6);
 }
-.dark-theme {
+
+.global-dark-theme {
     --text-color: #ffffff;
-    --background-gradient: linear-gradient(to right, #161416, #1d0e1d);
+    --background-gradient: linear-gradient(145deg, #38283e, #380f36, #3e0028);
 }
 
 body {
@@ -16,5 +18,14 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
     background: var(--background-gradient);
+    color: var(--text-color);
 }
 
+// #endregion GLOBAIS
+
+
+// #region PROJETO
+
+
+
+// #endregion PROJETO
